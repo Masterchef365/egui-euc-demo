@@ -23,7 +23,8 @@ serde = { version = "1", features = ["derive"] }
 
 euc = { git = "https://github.com/zesterer/euc.git", rev = "e8f7aee", default-features = false }
 bytemuck = "1.23.1"
-egui-euc = { git = "http://github.com/Masterchef365/egui-euc.git", branch = "main" }
+egui-euc = { git = "http://github.com/Masterchef365/egui-euc.git", branch = "main", default-features = false }
+#egui-euc = { path = "../egui-euc", default-features = false }
 
 anyhow = "1"
 egui_demo_lib = "0.32.0"
