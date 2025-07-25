@@ -152,6 +152,8 @@ impl eframe::App for App {
                 self.tex,
                 egui::epaint::ImageDelta::full(new_image, egui::TextureOptions::NEAREST),
             );
+
+            ui.hyperlink_to("Source code", "https://github.com/Masterchef365/egui-euc");
         });
     }
 }
